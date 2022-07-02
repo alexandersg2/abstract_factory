@@ -25,4 +25,4 @@ We will use the Abstract Factory for several reasons:
 
 ## Class Diagram:
 
-![Alt text](./class_diagrams.png?raw=true "Title")
+![Class Diagram](./class_diagrams.png?raw=true "Class Diagram")
