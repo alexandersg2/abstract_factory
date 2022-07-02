@@ -23,6 +23,7 @@ class StripePaymentProcessor(PaymentProcessor):
 
     def make_payment(self, amount: float):
         """Process a Stripe payment."""
+        print("Did some Stripe specific payment stuff")
         print(f"Made a Stripe payment of {amount}")
 
 
@@ -31,6 +32,7 @@ class StripeRefundProcessor(RefundProcessor):
 
     def make_refund(self, amount: float):
         """Process a Stripe refund."""
+        print("Did some Stripe specific refund stuff")
         print(f"Made a Stripe refund of {amount}")
 
 
@@ -39,6 +41,7 @@ class AdyenPaymentProcessor(PaymentProcessor):
 
     def make_payment(self, amount: float):
         """Process a Adyen payment."""
+        print("Did some Adyen specific payment stuff")
         print(f"Made an Adyen payment of {amount}")
 
 class AdyenRefundProcessor(RefundProcessor):
@@ -46,6 +49,7 @@ class AdyenRefundProcessor(RefundProcessor):
 
     def make_refund(self, amount: float):
         """Process a Adyen refund."""
+        print("Did some Adyen specific refund stuff")
         print(f"Made an Adyen refund of {amount}")
 
 
